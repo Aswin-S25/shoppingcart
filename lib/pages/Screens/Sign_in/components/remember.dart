@@ -30,7 +30,7 @@ class _RememberState extends State<Remember> {
         GestureDetector(
           child:const Text(
             "Forgot Password",
-            style: TextStyle(decoration: TextDecoration.underline),
+            style: TextStyle(decoration: TextDecoration.underline, color: Colors.grey),
           ),
         )
       ],

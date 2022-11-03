@@ -41,7 +41,7 @@ class Body extends StatelessWidget {
                   label: "Password",
                   icon: Icons.lock_outline),
               const SizedBox(height: 30,),
-              Remember(),
+              const Remember(),
               const SizedBox(height: 50),
               const CButton(),
               const SizedBox(height: 70),
