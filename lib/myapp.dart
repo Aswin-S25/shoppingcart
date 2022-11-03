@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingcart/pages/Regester.dart';
+import 'package:shoppingcart/pages/Screens/Sign_in/signin.dart';
 import 'package:shoppingcart/pages/welcome.dart';
 
 class MyApp extends StatelessWidget {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "TOLOTO",
       home: Scaffold(
-        body: Register(),
+        body: SignInScreen(),
       ),
     );
   }
